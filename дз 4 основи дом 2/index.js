@@ -38,10 +38,10 @@ button.addEventListener('click', () => {
     const light = 'rgb(243, 235, 224)';
     const dark = 'rgb(19, 20, 34)';
 
-    if (backgroundColor === light) {
-        turnOff()
-    } else {
+    if (backgroundColor === dark) {
         turnOn()
+    } else {
+        turnOff()
     }
 
 });
